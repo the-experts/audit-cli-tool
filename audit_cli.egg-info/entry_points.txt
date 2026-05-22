@@ -1,0 +1,2 @@
+[console_scripts]
+audit = audit_cli.cli:cli

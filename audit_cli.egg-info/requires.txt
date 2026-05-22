@@ -1,0 +1,8 @@
+click>=8.1
+requests>=2.31
+plotly>=5.18
+rich>=13.7
+pyyaml>=6.0
+
+[png]
+kaleido>=0.2.1

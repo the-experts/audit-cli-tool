@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: audit-cli
+Version: 0.1.0
+Summary: SonarQube analysis diagram generator
+Requires-Python: >=3.10
+Requires-Dist: click>=8.1
+Requires-Dist: requests>=2.31
+Requires-Dist: plotly>=5.18
+Requires-Dist: rich>=13.7
+Requires-Dist: pyyaml>=6.0
+Provides-Extra: png
+Requires-Dist: kaleido>=0.2.1; extra == "png"

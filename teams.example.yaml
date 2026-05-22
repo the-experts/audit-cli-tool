@@ -1,0 +1,15 @@
+teams:
+  - name: Team Alpha
+    projects:
+      - my-frontend
+      - my-backend-api
+
+  - name: Team Beta
+    projects:
+      - payment-service
+      - auth-service
+
+  - name: Platform
+    projects:
+      - infra-monitoring
+      - data-pipeline

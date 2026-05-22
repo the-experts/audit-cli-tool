@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audit-cli"
+version = "0.1.0"
+description = "SonarQube analysis diagram generator"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "requests>=2.31",
+    "plotly>=5.18",
+    "rich>=13.7",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+png = ["kaleido>=0.2.1"]
+
+[project.scripts]
+audit = "audit_cli.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["audit_cli*"]
